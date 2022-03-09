@@ -1,0 +1,41 @@
+#include <stdio.h>
+int main ()
+{   //Declare Variable
+   int grade, s1, Grade;
+   //Read Value
+    printf("Enter Grade\n");
+    scanf("%f", &s1);
+    Grade = s1;
+    //Print Grade with if else
+    if(Grade >= 92){
+        printf("Your Grade is A\n");
+    }
+    else
+
+        if(Grade >=84){
+            printf("Your Grade is A-\n");
+
+    }
+    else
+
+        if (Grade >=76){
+            printf("Your Grade is B\n");
+    }
+    else
+        if(Grade >= 68){
+            printf("Your Grade is B-\n");
+    }
+    else
+    if (Grade >=60){
+        printf("Your Grade is C\n");
+    }
+    else
+        if (Grade >=50){
+            printf("Your Grade is D\n");
+    }
+    else
+        if (Grade <= 50){
+            printf("Your Grade is F\n");
+    }
+    return 0;
+}
